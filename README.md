@@ -44,5 +44,5 @@ Run a model from the repository root:
 
 ## Reproducibility notes
 - This version splits before fitting preprocessing and before SMOTE. Results can differ from earlier experiments that scaled or oversampled the full dataset before splitting.
-- CNN-GRU currently uses 10 epochs and a validation split from training data. Align this with the final manuscript only if it matches the experiment actually reported.
+- CNN-GRU currently uses 15 epochs and a validation split from training data. Align this with the final manuscript only if it matches the experiment actually reported.
 - CNN-GRU treats the feature vector as a 1D sequence; explain this modelling choice in the paper.
